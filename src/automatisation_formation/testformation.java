@@ -2,19 +2,23 @@ package automatisation_formation;
 
 public class testformation {
 	
-	int result=0;
+	static int addition;
+	static int resultat;
+	int a;
+	int b;
 	
 	public static void main(String[] args ) {
-	
-				
-		
+
+		resultat=calculSomme(2,10);
+		System.out.print(resultat);
+
 	}
 	
 	
-	public int calculSomme(int number1 , int number2){
+	public static int calculSomme(int number1 , int number2){
 		
-		result=number1+number2;
-		return result;
+		addition=number1+number2;
+		return addition;
 		
 	}
 	
