@@ -4,6 +4,9 @@ public class voiture {
 	
 	String marque;
 	public String getMarque() { return marque; }
+	public void setMarque(String marque) {
+        this.marque=marque;
+    }
 	
 	String VIN;
 	public String getVin() { return VIN; }
