@@ -9,7 +9,7 @@ public class testformation {
 	
 	public static void main(String[] args ) {
 
-		resultat=calculSomme(2,10);
+		resultat=calculSomme(5,8);
 		System.out.print(resultat);
 
 	}
